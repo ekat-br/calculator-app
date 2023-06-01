@@ -91,8 +91,27 @@ h1 {
   grid-area: key-divide;
 }
 
+.key-reset {
+  grid-area: key-reset;
+}
+
+.key-equals {
+  grid-area: key-equals;
+}
+
 .attribution {
   position: fixed;
   bottom: 0;
   color: #fff;
 }
+
+/* .tri-state-toggle {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  width: 60px;
+}
+#theme1 {
+  opacity: 1;
+} */
