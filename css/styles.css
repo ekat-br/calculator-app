@@ -21,6 +21,7 @@ h1 {
 
 .keys-container {
   background-color: hsl(223, 31%, 20%);
+  padding: 20px;
   width: 25%;
   margin-right: auto;
   margin-left: auto;
@@ -29,13 +30,65 @@ h1 {
   margin-top: 150px;
   display: grid;
   grid-template-areas:
-    "key7 key8 key9"
-    "key4 key5 key6"
-    "key1 key2 key3";
-  padding: 10px 10px 10px 10px;
-  grid-gap: 10px;
-  grid-template-rows: 80px 80px 80px;
-  grid-template-columns: 80px 80px 80px;
+    "key-7 key-8 key-9 key-delete" "key-4 key-5 key-6 key-add"
+    "key-1 key-2 key-3 key-subtract" "key-dot key-0 key-divide key-multiply";
+  grid-gap: 5px;
+}
+
+.key-1 {
+  grid-area: key-1;
+}
+
+.key-2 {
+  grid-area: key-2;
+}
+.key-3 {
+  grid-area: key-3;
+}
+.key-4 {
+  grid-area: key-4;
+}
+.key-5 {
+  grid-area: key-5;
+}
+.key-6 {
+  grid-area: key-6;
+}
+.key-7 {
+  grid-area: key-7;
+}
+.key-8 {
+  grid-area: key-8;
+}
+.key-9 {
+  grid-area: key-9;
+}
+.key-0 {
+  grid-area: key-0;
+}
+
+.key-delete {
+  grid-area: key-delete;
+}
+
+.key-add {
+  grid-area: key-add;
+}
+
+.key-subtract {
+  grid-area: key-subtract;
+}
+
+.key-dot {
+  grid-area: key-dot;
+}
+
+.key-multiply {
+  grid-area: key-multiply;
+}
+
+.key-divide {
+  grid-area: key-divide;
 }
 
 .attribution {
