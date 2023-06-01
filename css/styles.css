@@ -1,0 +1,20 @@
+* {
+  background-color: hsl(222, 26%, 31%);
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font: 2rem;
+}
+
+.lightbutton-theme1 {
+  width: 70px;
+  height: 50px;
+  background-color: hsl(45, 7%, 89%);
+  color: hsl(198, 20%, 13%);
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
