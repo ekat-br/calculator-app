@@ -2,11 +2,12 @@
   background-color: hsl(222, 26%, 31%);
   font-family: "League Spartan", sans-serif;
   font-weight: 700;
+  font-size: 16px;
 }
 
 h1 {
   color: hsl(0, 0%, 100%);
-  font: 2rem;
+  font-size: 1.5rem;
 }
 
 .lightbutton-theme1 {
@@ -14,7 +15,23 @@ h1 {
   height: 50px;
   background-color: hsl(45, 7%, 89%);
   color: hsl(198, 20%, 13%);
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.bluebutton-theme1 {
+  background-color: hsl(225, 21%, 49%);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.redbutton-theme1 {
+  background-color: hsl(6, 63%, 50%);
+  color: #fff;
+  font-size: 2rem;
   font-weight: bold;
   border-radius: 5px;
 }
@@ -29,74 +46,17 @@ h1 {
   border-radius: 10px;
   margin-top: 150px;
   display: grid;
-  grid-template-areas:
-    "key-7 key-8 key-9 key-delete" "key-4 key-5 key-6 key-add"
-    "key-1 key-2 key-3 key-subtract" "key-dot key-0 key-divide key-multiply";
-  grid-gap: 5px;
-}
-
-.key-1 {
-  grid-area: key-1;
-}
-
-.key-2 {
-  grid-area: key-2;
-}
-.key-3 {
-  grid-area: key-3;
-}
-.key-4 {
-  grid-area: key-4;
-}
-.key-5 {
-  grid-area: key-5;
-}
-.key-6 {
-  grid-area: key-6;
-}
-.key-7 {
-  grid-area: key-7;
-}
-.key-8 {
-  grid-area: key-8;
-}
-.key-9 {
-  grid-area: key-9;
-}
-.key-0 {
-  grid-area: key-0;
-}
-
-.key-delete {
-  grid-area: key-delete;
-}
-
-.key-add {
-  grid-area: key-add;
-}
-
-.key-subtract {
-  grid-area: key-subtract;
-}
-
-.key-dot {
-  grid-area: key-dot;
-}
-
-.key-multiply {
-  grid-area: key-multiply;
-}
-
-.key-divide {
-  grid-area: key-divide;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
 
 .key-reset {
-  grid-area: key-reset;
+  grid-column: 1 / span 2;
 }
 
 .key-equals {
-  grid-area: key-equals;
+  grid-column: 3 / span 2;
 }
 
 .attribution {
